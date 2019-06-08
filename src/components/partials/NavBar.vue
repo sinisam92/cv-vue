@@ -38,7 +38,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .nav-flex-container {
   display: inline-flex;
 }
@@ -70,18 +70,26 @@ a {
 .my-name span {
   font-size: 22px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 991px) {
   .nav-flex-container {
-    display: inline;
+    display: inline-block;
     margin: 0;
   }
   .nav-bar ul {
-    text-align: center;
+    text-align: left;
     display: block;
     margin-left: -50px;
   }
   .my-name {
-    text-align: center;
+    text-align: left;
+  }
+}
+@media (min-width: 320px) and (max-width: 331px) {
+  .nav-bar {
+
+    li, a {
+      margin-left: 3px !important;
+    }
   }
 }
 </style>

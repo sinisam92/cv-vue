@@ -5,7 +5,7 @@
     </div>
     <div class="jumbotron">
       <div class="jumb-content">
-        <p>
+        <p class="contact-email">
           <strong>E-mail:</strong>
           <a href="mailto:sinisamanojlovic1@gmail.com">sinisamanojlovic1@gmail.com</a>
         </p>
@@ -40,7 +40,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .contact h1 {
   font-size: 85px;
 }
@@ -53,6 +53,12 @@ export default {};
 }
 .jumb-content {
   text-align: left;
+}
+.social-media {
+  ul {
+  text-align: center;
+  margin-left: -64px;
+  }
 }
 .social-media li {
   display: inline;
@@ -69,6 +75,12 @@ export default {};
   }
   .contact h1 {
     font-size: 75px;
+  }
+  .contact-email {
+    display: grid;
+  }
+  .contact h1 {
+    margin-left: -14px;
   }
 }
 </style>

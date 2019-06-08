@@ -39,7 +39,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .profile-image {
   text-align: left;
   margin-left: 150px;
@@ -124,7 +124,8 @@ export default {};
   width: 60%;
   font-family: "Open Sans", sans-serif;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+  
   .main-content h2 {
     font-size: 50px;
   }
@@ -134,6 +135,13 @@ export default {};
   .profile-image {
     text-align: center;
     margin-left: 0;
+    margin-right: -10px;
+    img {
+      width: 100%;
+    }
+  }
+  .my-circles {
+    margin-left: -20px;
   }
   .circles {
     width: 90px;
@@ -142,7 +150,7 @@ export default {};
     color: #fff;
     line-height: 90px;
     text-align: center;
-    margin-right: 25px;
+    margin-right: 20px;
   }
 
   .about-me {
@@ -152,14 +160,41 @@ export default {};
   .main-content h2 {
     font-size: 45px;
   }
-  @media screen and (orientation: landscape) {
-    .main-content {
-      margin-left: 0;
-    }
+ 
+}
+@media screen and (min-width: 769px){
+  .main-flex-container {
+    margin-left: -24px;
+    display: inline-flex !important;
+    gap: 30px;
     .profile-image {
-      text-align: left;
       margin-left: 0;
+      img {
+        width: initial;
+      }
+    }
+    .main-content {
+      margin-left: 46px;
+      h1 {
+        font-size: 55px;
+      }
+      h2 {
+        font-size: 45px;
+      }
+    }
+    .my-circles {
+      .circles {
+        width: 110px;
+        height: 110px;
+        line-height: 110px;
+        margin-right: 20px;
+      }
+    }
+    .about-me {
+   
+      text-align: center;
     }
   }
 }
+
 </style>
