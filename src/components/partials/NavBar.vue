@@ -16,7 +16,7 @@
         <nav>
           <ul>
             <li>
-              <router-link to="/">HOME</router-link>
+              <router-link to="/" exact>HOME</router-link>
             </li>
             <li>
               <router-link to="/resume">RESUME</router-link>
@@ -48,6 +48,7 @@ a {
   margin-left: 5px;
   color: #4d4d4d;
   font-weight: bold;
+  outline: none;
 }
 .nav-bar a:hover {
   text-decoration: none;
@@ -70,6 +71,9 @@ a {
 .my-name span {
   font-size: 22px;
 }
+.router-link-active {
+  color: #61d0d4;
+}
 @media screen and (max-width: 991px) {
   .nav-flex-container {
     display: inline-block;
@@ -86,7 +90,8 @@ a {
 }
 @media (min-width: 320px) and (max-width: 331px) {
   .nav-bar {
-    li, a {
+    li,
+    a {
       margin-left: 3px !important;
     }
   }

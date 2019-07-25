@@ -50,7 +50,7 @@
               <i class="fab fa-wordpress-simple"></i>Wordpress
             </li>
             <li>
-              <i class="fab fa-drupal"></i>Drupal
+              <i class="fab fa-drupal"></i>Drupal CMS
             </li>
           </ul>
         </div>
@@ -69,7 +69,7 @@
               <i class="fab fa-adobe"></i>Photoshop
             </li>
             <li>
-              <img src="https://img.icons8.com/ios/22/000000/gimp.png">Gimp
+              <img src="https://img.icons8.com/ios/22/000000/gimp.png" />Gimp
             </li>
           </ul>
         </div>
@@ -121,7 +121,8 @@
               CORS and JWT.
             </p>
             <p>
-              <a class="certificate"
+              <a
+                class="certificate"
                 href="https://i.imgur.com/hsz3zi3.jpg"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -153,7 +154,7 @@
             <p>
               <strong>Module:</strong> Department of Water Management
             </p>
-            <p>2011 - 2015</p>
+            <p>2011 -</p>
           </div>
         </div>
       </div>
@@ -167,11 +168,22 @@
           </div>
         </div>
         <div class="work-experience">
-          <span><h4>Fermicoding</h4>April 2019. - present</span>
-          <p class="curriculum">Working on live Drupal project,robust website for golf course architects.
-            Mainly working on Front End using <strong>JavaScript</strong> as well as <strong>jQuery</strong> and <strong>Scss</strong>,
-            creating custom animations, effects and fulfilling all of designers wishes <i class="fas fa-laugh"></i>.
-            Also done some work on  Back End with <strong>PHP</strong>.</p>
+          <span>
+            <h4>Fermicoding</h4>April 2019. - July 2019.
+          </span>
+          <p class="curriculum">
+            Working on live Drupal project,robust website for golf course architects.
+            Mainly working on Front End using
+            <strong>JavaScript</strong> as well as
+            <strong>jQuery</strong> and
+            <strong>Scss</strong>,
+            creating custom animations, effects and fulfilling all of designers wishes
+            <i
+              class="fas fa-laugh"
+            ></i>.
+            Also done some work on Back End with
+            <strong>PHP</strong>.
+          </p>
         </div>
       </div>
     </div>
@@ -223,13 +235,13 @@ export default {};
 .fa-laugh {
   color: #e6b800;
   font-size: 25px;
-  transition:  0.8s ease;
+  transition: 0.8s ease;
   &:hover {
-    transform:rotate(360deg);
-    -ms-transform:rotate(360deg);
-    -webkit-transform:rotate(360deg);
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
     color: rgb(32, 146, 32);
-    transition:  0.8s ease;
+    transition: 0.8s ease;
   }
 }
 @media (max-width: 768px) {
