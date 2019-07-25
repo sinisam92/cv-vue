@@ -22,7 +22,7 @@
               <router-link to="/resume">RESUME</router-link>
             </li>
             <li>
-              <router-link to="/projects">PROJECTS</router-link>
+              <router-link to="/projects">PORTFOLIO</router-link>
             </li>
             <li>
               <router-link to="/contact">CONTACT ME</router-link>
@@ -86,7 +86,6 @@ a {
 }
 @media (min-width: 320px) and (max-width: 331px) {
   .nav-bar {
-
     li, a {
       margin-left: 3px !important;
     }

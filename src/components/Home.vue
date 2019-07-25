@@ -27,7 +27,7 @@
       </div>
       <div class="about-me">
         <p>
-          I like to challenge myself. I like to learn, so I like to try new
+          I like to challenge myself, to learn, to try new
           things and keep growing.
         </p>
       </div>
@@ -68,6 +68,7 @@ export default {};
   margin-left: -10px;
 }
 .main-content {
+ 
   margin-left: 20px;
   text-align: left;
 }
@@ -96,27 +97,46 @@ export default {};
 }
 .circle-red {
   background-color: #ee2b4e;
+  box-shadow: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  
 }
 .circle-red:hover {
   background-color: #9b2339;
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -1px, 0px);
+  transform: translate3d(0px, -4px, 0px);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }
 .circle-blue {
   background-color: #61d0d4;
+  box-shadow: none;
+   transform: translate3d(0, 0, 0);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }
 .circle-blue:hover {
   background-color: #418b8d;
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -1px, 0px);
+  transform: translate3d(0px, -4px, 0px);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }
 .circle-yallow {
   background-color: #bab808;
+  box-shadow: none;
+   transform: translate3d(0, 0, 0);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }
 .circle-yallow:hover {
   background-color: #908b1a;
   box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
-  transform: translate3d(0px, -1px, 0px);
+  transform: translate3d(0px, -4px, 0px);
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
 }
 .about-me {
   display: inline-block;
@@ -174,6 +194,7 @@ export default {};
       }
     }
     .main-content {
+    
       margin-left: 46px;
       h1 {
         font-size: 55px;

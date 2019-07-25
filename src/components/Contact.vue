@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrapper">
     <div class="contact">
       <h1>CONTACT</h1>
     </div>
@@ -7,11 +7,11 @@
       <div class="jumb-content">
         <p class="contact-email">
           <strong>E-mail:</strong>
-          <a href="mailto:sinisamanojlovic1@gmail.com">sinisamanojlovic1@gmail.com</a>
+          <a class="email" href="mailto:sinisamanojlovic1@gmail.com">sinisamanojlovic1@gmail.com</a>
         </p>
         <p>
           <strong>Tel:</strong>
-          <a href="tel:00381600992513"></a> 060/099-25-13
+          <a class="phone" href="tel:+381600992513">+381600992513</a> 
         </p>
         <p>
           <strong>Address:</strong>
@@ -41,12 +41,25 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.phone {
+  color: #e83556;
+  &:hover {
+    color: red;
+  }
+}
+.email {
+  color: #e83556;
+  &:hover {
+    color: red;
+  }
+}
 .contact h1 {
   font-size: 85px;
 }
 .jumbotron {
   background-color: rgb(214, 202, 202);
   font-size: 25px;
+  margin-bottom: 0;
 }
 .jumbotron a {
   margin-left: 10px;

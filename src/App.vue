@@ -37,7 +37,7 @@ export default {
 }
 html,
 body {
-  background-color: #eae5e5;
+  background-color: #F9F9F6;
   color: #4d4d4d;
   max-width: 100%;
   overflow-x: hidden;
@@ -53,6 +53,6 @@ html {
   height: 100%;
 }
 main {
-  margin-bottom: 215px;
+  min-height: calc(100vh - 388px);
 }
 </style>

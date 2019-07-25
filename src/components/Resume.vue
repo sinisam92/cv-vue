@@ -109,7 +109,7 @@
               , Novi Sad
             </p>
             <p>
-              <strong>Curriculum:</strong>OOP, Laravel, Vue.js
+              <strong>Curriculum:</strong> OOP, Laravel, Vue.js
             </p>
             <p class="curriculum">
               Learned about OOP Design Patterns and principles,
@@ -135,7 +135,7 @@
               , Novi Sad
             </p>
             <p>
-              <strong>Curriculum:</strong>HTML, CSS, PHP, JavaScript, SQL, Git, OOP
+              <strong>Curriculum:</strong> HTML, CSS, PHP, JavaScript, SQL, Git, OOP
             </p>
             <p class="curriculum">
               Learned about procedural and basics of object-oriented programming,
@@ -153,7 +153,7 @@
             <p>
               <strong>Module:</strong> Department of Water Management
             </p>
-            <p>2011 - </p>
+            <p>2011 - 2015</p>
           </div>
         </div>
       </div>
@@ -167,9 +167,11 @@
           </div>
         </div>
         <div class="work-experience">
-          <span><h4>Fermicoding</h4>3 months </span>
-          <p class="curriculum">Working on live project, website for big American global golf course architects, using  php, JavaScript, jQuery, Drupal, git daily. 
-            Working on backend as well as frontend. Project is in final testing faze as soon as it's deployed link will be provided.</p>
+          <span><h4>Fermicoding</h4>April 2019. - present</span>
+          <p class="curriculum">Working on live Drupal project,robust website for golf course architects.
+            Mainly working on Front End using <strong>JavaScript</strong> as well as <strong>jQuery</strong> and <strong>Scss</strong>,
+            creating custom animations, effects and fulfilling all of designers wishes <i class="fas fa-laugh"></i>.
+            Also done some work on  Back End with <strong>PHP</strong>.</p>
         </div>
       </div>
     </div>
@@ -181,7 +183,9 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-
+.resume-container {
+  margin-bottom: 50px;
+}
 .title-div {
   color: #e83556;
 }
@@ -215,6 +219,18 @@ export default {};
 }
 .education p {
   text-align: left;
+}
+.fa-laugh {
+  color: #e6b800;
+  font-size: 25px;
+  transition:  0.8s ease;
+  &:hover {
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    color: rgb(32, 146, 32);
+    transition:  0.8s ease;
+  }
 }
 @media (max-width: 768px) {
   .resume-container {

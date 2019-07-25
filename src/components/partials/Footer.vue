@@ -9,7 +9,7 @@
           <!-- <h5 class="info-label">
             <strong>Call</strong>
           </h5> -->
-          <p>T: 060-099-25-13</p>
+          <p><a href="tel:+381600992513">+381600992513</a></p>
         </div>
       </div>
       <div class="info">
@@ -67,9 +67,6 @@ export default {};
 .footer {
   background-color: #e83556;
   width: 100%;
-  position: relative;
-  margin-top: -100px;
-  clear: both;
 }
 .flex-footer {
   display: flex;
